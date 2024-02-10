@@ -27,6 +27,17 @@
       <version>4.11</version>
       <scope>test</scope>
     </dependency>
+    <dependency>
+      <groupId>org.apache.derby</groupId>
+      <artifactId>derby</artifactId>
+      <version>10.16.1.1</version>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.derby</groupId>
+      <artifactId>derbyclient</artifactId>
+      <version>10.16.1.1</version>
+    </dependency>
+
   </dependencies>
 
   <build>
@@ -48,7 +59,12 @@
         </plugin>
         <plugin>
           <artifactId>maven-surefire-plugin</artifactId>
-          <version>2.22.1</version>
+          <version>3.2.5</version> <!-- Use the latest version -->
+          <configuration>
+            <includes>
+              <include>**/*Test.java</include>
+            </includes>
+          </configuration>
         </plugin>
         <plugin>
           <artifactId>maven-jar-plugin</artifactId>

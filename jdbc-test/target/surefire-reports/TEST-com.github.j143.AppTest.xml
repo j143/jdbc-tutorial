@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.github.j143.AppTest" time="0.04" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.github.j143.AppTest" time="0.056" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
-    <property name="java.class.path" value="/workspaces/jdbc-tutorial/jdbc-test/target/test-classes:/workspaces/jdbc-tutorial/jdbc-test/target/classes:/home/codespace/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/codespace/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
+    <property name="java.class.path" value="/workspaces/jdbc-tutorial/jdbc-test/target/test-classes:/workspaces/jdbc-tutorial/jdbc-test/target/classes:/home/codespace/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/codespace/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/codespace/.m2/repository/org/apache/derby/derby/10.16.1.1/derby-10.16.1.1.jar:/home/codespace/.m2/repository/org/apache/derby/derbyshared/10.16.1.1/derbyshared-10.16.1.1.jar:/home/codespace/.m2/repository/org/apache/derby/derbyclient/10.16.1.1/derbyclient-10.16.1.1.jar:"/>
     <property name="java.vm.vendor" value="Microsoft"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.vendor.url" value="https://www.microsoft.com"/>
@@ -11,9 +11,9 @@
     <property name="java.vm.specification.version" value="21"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="/usr/local/sdkman/candidates/java/21.0.1-ms/lib"/>
-    <property name="sun.java.command" value="/workspaces/jdbc-tutorial/jdbc-test/target/surefire/surefirebooter546226328300368265.jar /workspaces/jdbc-tutorial/jdbc-test/target/surefire 2024-02-10T05-13-45_005-jvmRun1 surefire4444319858390998777tmp surefire_07744570463704718363tmp"/>
+    <property name="sun.java.command" value="/workspaces/jdbc-tutorial/jdbc-test/target/surefire/surefirebooter-20240210053632861_3.jar /workspaces/jdbc-tutorial/jdbc-test/target/surefire 2024-02-10T05-36-32_691-jvmRun1 surefire-20240210053632861_1tmp surefire_0-20240210053632861_2tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="/workspaces/jdbc-tutorial/jdbc-test/target/test-classes:/workspaces/jdbc-tutorial/jdbc-test/target/classes:/home/codespace/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/codespace/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
+    <property name="surefire.test.class.path" value="/workspaces/jdbc-tutorial/jdbc-test/target/test-classes:/workspaces/jdbc-tutorial/jdbc-test/target/classes:/home/codespace/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/codespace/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/codespace/.m2/repository/org/apache/derby/derby/10.16.1.1/derby-10.16.1.1.jar:/home/codespace/.m2/repository/org/apache/derby/derbyshared/10.16.1.1/derbyshared-10.16.1.1.jar:/home/codespace/.m2/repository/org/apache/derby/derbyclient/10.16.1.1/derbyclient-10.16.1.1.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="/home/codespace"/>
     <property name="user.language" value="en"/>
@@ -26,7 +26,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="surefire.real.class.path" value="/workspaces/jdbc-tutorial/jdbc-test/target/surefire/surefirebooter546226328300368265.jar"/>
+    <property name="surefire.real.class.path" value="/workspaces/jdbc-tutorial/jdbc-test/target/surefire/surefirebooter-20240210053632861_3.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21.0.1+12-LTS"/>
     <property name="user.name" value="codespace"/>
@@ -53,5 +53,5 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="shouldAnswerWithTrue" classname="com.github.j143.AppTest" time="0.002"/>
+  <testcase name="shouldAnswerWithTrue" classname="com.github.j143.AppTest" time="0.008"/>
 </testsuite>
